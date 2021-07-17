@@ -7,6 +7,7 @@
 
 @media only screen and (max-width: 500px) {
   body {
+    background-color: black;
     background: url("../assets/img/BG.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -15,8 +16,8 @@
     position: absolute;
     top: 5%;
     left: 5%;
-    width: 89%;
-    height: 89%;
+    width: 90%;
+    height: 87%;
   }
   .main-profile-img {
     position: absolute;
@@ -53,8 +54,8 @@
     position: absolute;
     top: 5%;
     left: 5%;
-    width: 89%;
-    height: 89%;
+    width: 90%;
+    height: 84%;
   }
   .about-me-img {
     position: absolute;
@@ -89,11 +90,18 @@
   
   .footer-note {
     position: absolute;
-    bottom: 2%;
-    width: 100%;
+    opacity: .5;
+    top: 45%;
+    width: 97%;
     text-align: center;
     color: white;
+    font-size: 20px;
   }
+  
+  
+  
+
+
   .pc-error {
     display: hidden;
     visibility: hidden;
@@ -102,6 +110,22 @@
     left: 0;
     width: 0;
     height: 0;
+  }
+  .pc-error-title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    text-align: center;
+    color: white;
+  }
+  .pc-error-note {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    text-align: center;
+    color: white;
   }
 }
 
