@@ -15,8 +15,8 @@
     position: absolute;
     top: 5%;
     left: 5%;
-    width: 90%;
-    height: 90%;
+    width: 89%;
+    height: 89%;
   }
   .main-profile-img {
     position: absolute;
@@ -53,8 +53,8 @@
     position: absolute;
     top: 5%;
     left: 5%;
-    width: 90%;
-    height: 90%;
+    width: 89%;
+    height: 89%;
   }
   .about-me-img {
     position: absolute;
@@ -89,7 +89,7 @@
   
   .footer-note {
     position: absolute;
-    bottom: 0;
+    bottom: 2%;
     width: 100%;
     text-align: center;
     color: white;
