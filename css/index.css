@@ -32,7 +32,10 @@
     text-align: center;
   }
   
-  .about-me-btn {
+  
+  
+  
+  .game-teach-btn {
     position: absolute;
     top: 27%;
     width: 100%;
@@ -42,6 +45,19 @@
     color: black;
     border-style: none;
   }
+  .about-me-btn {
+    position: absolute;
+    top: 35%;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    opacity: .5;
+    color: black;
+    border-style: none;
+  }
+  
+  
+  
   
   
   
@@ -84,6 +100,56 @@
   
   
   
+  .game-teach-Us-div {
+    display: hidden;
+    visibility: hidden;
+    
+    background-color: #1D1D1F;
+    opacity: .99; 
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 84%;
+  }
+  .games-teach-title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+  }
+  .games-txt {
+    position: absolute;
+    top: 5%;
+    left: 3%;
+    width: 91.3%;
+    height: 90%;
+    overflow:auto;
+    color: white;
+    background-color: #111112;
+    padding: 5px;
+  }
+  .close-games {
+    position: absolute;
+    bottom: -7%;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    opacity: .5;
+    color: black;
+    border-style: none;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
   
@@ -97,9 +163,6 @@
     color: white;
     font-size: 20px;
   }
-  
-  
-  
 
 
   .pc-error {
