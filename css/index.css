@@ -1,194 +1,233 @@
 :root {
-  --BG: #353640;
+  --Main-Background-Color: #2C2E2F;
+  --Topbar-Color: #030D88;
+  --Splitter-Color: #000000;
+  
+  --Testing-Color: #FF0000;
 }
 
 
 
 
-@media only screen and (max-width: 500px) {
-  body {
-    background-color: black;
-    background: url("../assets/img/BG.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-  .middle-class {
-    position: absolute;
-    top: 5%;
-    left: 5%;
-    width: 90%;
-    height: 87%;
-  }
-  .main-profile-img {
-    position: absolute;
-    left: 32%;
-    width: 37%;
-    height: 20%;
-  }
-  .profile-name {
-    position: absolute;
-    top: 18%;
-    width: 100%;
-    text-align: center;
-  }
-  
-  
-  
-  
-  .game-teach-btn {
-    position: absolute;
-    top: 27%;
-    width: 100%;
-    text-align: center;
-    background-color: white;
-    opacity: .5;
-    color: black;
-    border-style: none;
-  }
-  .about-me-btn {
-    position: absolute;
-    top: 35%;
-    width: 100%;
-    text-align: center;
-    background-color: white;
-    opacity: .5;
-    color: black;
-    border-style: none;
-  }
-  
-  
-  
-  
-  
-  
-  .about-me-div {
-    display: hidden;
-    visibility: hidden;
-    
-    background-color: #1D1D1F;
-    opacity: .99;
-    position: absolute;
-    top: 5%;
-    left: 5%;
-    width: 90%;
-    height: 84%;
-  }
-  .about-me-img {
-    position: absolute;
-    left: 18.5%;
-    width: 65%;
-    height: 37%;
-  }
-  .about-me-note {
-    width: 100%;
-    text-align: center;
-    position: absolute;
-    top: 56%;
-    color: white;
-  }
-  .close-about-me {
-    position: absolute;
-    bottom: 0%;
-    width: 100%;
-    text-align: center;
-    background-color: white;
-    opacity: .5;
-    color: black;
-    border-style: none;
-  }
-  
-  
-  
-  
-  .game-teach-Us-div {
-    display: hidden;
-    visibility: hidden;
-    
-    background-color: #1D1D1F;
-    opacity: .99; 
-    position: absolute;
-    top: 5%;
-    left: 5%;
-    width: 90%;
-    height: 84%;
-  }
-  .games-teach-title {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    text-align: center;
-    color: white;
-  }
-  .games-txt {
-    position: absolute;
-    top: 5%;
-    left: 3%;
-    width: 91.3%;
-    height: 90%;
-    overflow:auto;
-    color: white;
-    background-color: #111112;
-    padding: 5px;
-  }
-  .close-games {
-    position: absolute;
-    bottom: -7%;
-    width: 100%;
-    text-align: center;
-    background-color: white;
-    opacity: .5;
-    color: black;
-    border-style: none;
-  }
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  .footer-note {
-    position: absolute;
-    opacity: .5;
-    top: 45%;
-    width: 97%;
-    text-align: center;
-    color: white;
-    font-size: 20px;
-  }
 
 
-  .pc-error {
-    display: hidden;
-    visibility: hidden;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 0;
-  }
-  .pc-error-title {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0;
-    text-align: center;
-    color: white;
-  }
-  .pc-error-note {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0;
-    text-align: center;
-    color: white;
-  }
+body {
+  background-color: var(--Main-Background-Color);
+}
+.topbar-div {
+  background-color: var(--Topbar-Color);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 20%;
+}
+.topbar-title {
+  position: absolute;
+  top: 10%;
+  left: 0;
+  color: white;
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+}
+.topbar-spacer {
+  position: absolute;
+  top: 20%;
+  left: 0;
+  background-color: var(--Splitter-Color);
+  height: .3%;
+  width: 100%;
+}
+
+
+
+
+
+.side-menu {
+  display: hidden;
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70%;
+  height: 100%;
+  background-color: var(--Main-Background-Color);
+}
+.menu-btn {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 40px;
+  height: 40px;
+}
+.side-menu-close-btn {
+  position: absolute;
+  top: -16px;
+  right: 5px;
+  color: white;
+  font-size: 20px;
+  text-decoration: bold;
+}
+.SideMenu-title {
+  color: white;
+  width: 100%;
+  text-align: center;
+  text-decoration: underline;
+}
+.SideMenu-Welcome-Btn {
+  position: absolute;
+  top: 10%;
+  left: 0;
+  color: white;
+  opacity: .8;
+  width: 100%;
+  text-align: center;
+}
+.SideMenu-gameTeach-Btn {
+  position: absolute;
+  top: 16%;
+  left: 0;
+  color: white;
+  opacity: .8;
+  width: 100%;
+  text-align: center;
+}
+.SideMenu-AboutMe-Btn {
+  position: absolute;
+  bottom: 0%;
+  left: 0;
+  color: white;
+  opacity: .8;
+  width: 100%;
+  text-align: center;
+}
+
+.side-menu-vertical-split {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: .6%;
+  height: 100%;
+  background-color: var(--Splitter-Color);
+}
+
+
+
+
+
+.welcome-page {
+  display: block;
+  visibility: visible;
+  position: absolute;
+  top: 20.2%;
+  left: 0;
+  width: 100%;
+  height: 79.8%;
+}
+.welcome-title {
+  position: absolute;
+  top: 5%;
+  left: 0;
+  font-size: 20px;
+  color: white;
+  width: 100%;
+  text-align: center;
+  text-decoration: underline;
+}
+.welcome-note {
+  position: absolute;
+  top: 30px;
+  left: 0;
+  color: white;
+  padding: 50px;
+  text-align: center;
+}
+
+
+
+
+
+.gameTeachUs-page {
+  display: hidden;
+  visibility: hidden;
+  position: absolute;
+  top: 20.2%;
+  left: 0;
+  width: 100%;
+  height: 79.8%;
+}
+.gameTeachUs-title {
+  position: absolute;
+  top: 0%;
+  left: 0;
+  font-size: 20px;
+  color: white;
+  width: 100%;
+  text-align: center;
+  text-decoration: underline;
+}
+.games-txt {
+  position: absolute;
+  top: 8%;
+  left: 3%;
+  width: 92.1%;
+  height: 85%;
+  overflow:auto;
+  color: white;
+  background-color: #111112;
+  padding: 5px;
+}
+
+
+
+.aboutMe-page {
+  display: hidden;
+  visibility: hidden;
+  position: absolute;
+  top: 20.2%;
+  left: 0;
+  width: 100%;
+  height: 79.8%;
+}
+.aboutMe-title {
+  position: absolute;
+  top: 0%;
+  left: 0;
+  font-size: 20px;
+  color: white;
+  width: 100%;
+  text-align: center;
+  text-decoration: underline;
+}
+.easterEgg-img {
+  position: absolute;
+  top: 7%;
+  left: 12.5%;
+  width: 300px;
+  height: 300px;
+}
+.aboutMe-note {
+  position: absolute;
+  top: 60%;
+  left: 0;
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+
+
+
+
+
+
+
+.NoSeleteable {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
