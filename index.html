@@ -1,134 +1,102 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Royal ACE Profile: Advance</title>
+    <title>royal_ace.74</title>
     
     
     
     
-    
-    
-    
-    <!-- Custom Styles -->
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/PC.css">
-    <link rel="stylesheet" href="../../assets/fonts/fonts.css">
+    <link rel="stylesheet" href="./style/index.css">
+    <link rel="stylesheet" href="./style/QuoteDiv.css">
 </head>
 <body>
-  <div class="topbar-div">
-    <img onclick="Show_SideMenu()" id="menu-btn" class="menu-btn" src="../../assets/img/menu-icon.jpg">
-    <h2 class="topbar-title CellosScript NoSeleteable">Royal ACE</h2>
-  </div>
-  <div class="topbar-spacer"></div>
   
   
   
-  <div class="welcome-page" id="welcomePage">
-    <h3 class="welcome-title">Welcome User!</h3>
-    <p class="welcome-note">Hello this is a website all coded by me aka Royal ACE. I didn't use websites like wix or [insert name here] to make this.</p>
-  </div>
-  
-  
-  <div class="gameTeachUs-page" id="gameTeachUsPage">
-    <h3 class="gameTeachUs-title">What Games Teach Us</h3>
-    <p class="games-txt" id="game-output">
-      COD WWII - Never leave a man behind.<br><br>Fortnite - Fight til the end.<br><br>Minecraft - Take pride in your work, even if it's not the prettiest.<br><br>Among Us - Trust Nobody.<br><br>Red Dead Redemption 2 - Do not take revenge & Honor.<br><br>FIFA - It's easier to work as a team then alone.<br><br>GTA V - Never stop hustling & Patience.<br><br>Fall Guys - Never give up.<br><br>NBA2k - We fight for our team, but we are brothers at the end.<br><br>RainbowSix Seige - Trust your teammates ablilities.<br><br>COD Bo2 - Betrayal never comes from your enemy.<br><br>Last of Us - Love will protect one another.<br><br>Last of Us 2 - Dealing with Heartbreak.<br><br>Assiasins Creed - Always be respectful of a position you'be earned/been given.<br><br>Modern Warfare - Dealing with online jerks.<br><br>Roblox - Make friends and be happy.<br><br>Halo - Always help your friends in time of need, even if you had to sacrifice yourself.<br><br>Hitman - Complete the mission.<br><br>Sims - Life is what you make it.<br><br>Borderlands 3 - Work and Dedication pays off.<br><br>Apex Legends - Value your team.<br><br>COD MW3 - No matter what keep on moving.<br><br>TitanFall 2 - Fight for what is wrong.<br><br>Rocket League - Every second counts.<br><br>God of War - Responsibity.
-    </p>
-  </div>
-  
-  
-  
-  <div class="aboutMe-page" id="aboutMePage">
-    <h3 class="aboutMe-title">About Me</h3>
-    <img class="easterEgg-img" src="../../assets/img/Easteregg_Img.png">
-    <p class="aboutMe-note">Hello am 16. I like gaming and coding. I did add a easter egg so enjoy if you find it you will know my first name.</p>
-  </div>
-  
-  
-  
-  <div id="fishing-div" class="fishing-setup NoSeleteable">
-    <h3 class="setup-title NoSeleteable">Fishing Setup</h3>
-    
-    <div class="rod-div">
-      <h3 class="rod-title NoSeleteable">Rod</h3>
-      <p class="rod-name NoSeleteable">Offshore Angler Ocean Master OMSU<br>Stand-Up Rod with Roller Guides<br><br>Length: 6ft</p>
-      <p class="rod-price NoSeleteable">$149.99</p>
-      <button src="https://www.basspro.com/shop/en/offshore-angler-ocean-master-omsu-stand-up-rod-with-roller-guides" class="rod-link NoSeleteable">Buy Link</button>
-    </div>
+  <div class="bg" id="bg">
+    <img class="royal_ace-title" src="./assets/imgs/royal_ace74.png">
+    <div class="title-spacer1"></div>
+        <img onclick="ShowHomepage()" class="HomeButton" src="./assets/imgs/home_icon.png">
+    <div class="title-spacer2"></div>
     
     
-    <div class="reel-div">
-      <h3 class="rod-title NoSeleteable">Reel</h3>
-      <p class="rod-name NoSeleteable">Shimano TLD Two-Speed A Model Conventional Reel<br><br>Ratio: 4.0:1/1.7:1</p>
-      <p class="rod-price NoSeleteable">$309.99</p>
-      <button src="https://www.basspro.com/shop/en/shimano-tld-two-speed-a-model-conventional-reel?hvarAID=shopping_googleproductextensions&ds_e=GOOGLE&ds_c=Shop%7CGeneric%7CAllProducts%7CHigh%7CSSCCatchAll&gclid=EAIaIQobChMI3L_C9qr38QIVbXxvBB23_g2wEAQYASABEgImm_D_BwE&gclsrc=aw.ds" class="rod-link NoSeleteable">Buy Link</button>
-    </div>
     
     
-    <div class="line-div">
-      <h3 class="rod-title NoSeleteable">Line</h3>
-      <p class="rod-name NoSeleteable">Bass Pro Shops Excel Braided Fishing Line<br><br>Length: 125yards<br>Lb Test: 50lb</p>
-      <p class="rod-price NoSeleteable">$9.99</p>
-      <button src="https://www.basspro.com/shop/en/bass-pro-shops-excel-braid-fishing-line" class="rod-link NoSeleteable">Buy Link</button>
-    </div>
     
     
-    <div class="lure-div">
-      <h3 class="rod-title NoSeleteable">Lure</h3>
-      <p class="rod-name NoSeleteable">Offshore Angler Baitfish Bucktail Jig<br><br>Color: White<br>Weight: 1/2oz</p>
-      <p class="rod-price NoSeleteable">$4.49</p>
-      <button src="https://www.basspro.com/shop/en/offshore-angler-baitfish-bucktail-jig" class="rod-link NoSeleteable">Buy Link</button>
+    <div class="Home-Div TempHide" id="Home-Div">
+      <img onclick="ShowQuote()" class="Home-QuoteBtn" src="./assets/imgs/quote-1.svg">
     </div>
     
     
     
     
-    <div class="finial-div">
-      <h3 class="finial-title NoSeleteable">Overview</h3>
+    <div class="Quote-Div" id="Quote-Div">
+      <p class="backBtn"><</p>
+      <p class="PageNum" id="PageNum">Page 1</p>
+      <p class="FroBtn">></p>
       
-      <p class="finial-price">Cost: $474.46</p>
+      
+      
+      
+      <div class="quotesPage1 TempHide" id="quotesPage1">
+        <p class="quoteOdd">1. Don't underestimate me darling I can go from gentlemen to gangster in just 2 secs.</p>
+        <p class="quoteEven">2. Be scared, and do it anyway</p>
+        <p class="quoteOdd">3. Being alone is better than being surrounded by the wrong people.</p>
+        <p class="quoteEven">4. Never beg someone to be in your life. If you text,call, visit and still you get ignored; Just Walk Away. It's called 'Self-Respect.'</p>
+        <p class="quoteOdd">5. If someone says you can't do it, do it twice and take pictures.</p>
+        <p class="quoteEven">6. Everything you've ever wanted is sitting on the other side of fear. -George Addair</p>
+        <p class="quoteOdd">7. Destroy Laziness otherwise it will destroy you.</p>
+        <p class="quoteEven">8. Behind every man who is rich, there is a bitch who left him in his difficult times.</p>
+        <p class="quoteOdd">9. Trust, Loyalty, Respect. Fuck up 1, you lose all 3.</p>
+        <p class="quoteEven">10. Breathe, it's just a bad day, not a bad life.</p>
+        <p class="quoteOdd">11. Train your mind to stay calm in every situation.</p>
+        <p class="quoteEven">12. Some are good at school, some are good at life.</p>
+        <p class="quoteOdd">13. Nothing is more dangerous than a person who healed himself with the help of nobody.</p>
+      </div>
+      
+      
+      
+      <div class="quotesPage1 TempHide" id="quotesPage2">
+        <p class="quoteEven">14. Don't waste your time looking back, you aren't going that way.</p>
+        <p class="quoteOdd">15. Some People are mad at you because you aren't suffering the way they expected you to.</p>
+        <p class="quoteEven">16. There is no competition, because nobody can be me.</p>
+        <p class="quoteOdd">17. Build a team so strong that they don't know who the leader is.</p>
+        <p class="quoteEven">18. The wise man accepts his pain, endures it, but does not add to it.</p>
+        <p class="quoteOdd">19. I may be in pain but trust me, I ain't weak.</p>
+        <p class="quoteEven">20. Money may not buy happiness, but I'd rather cry in a bugatti than on a bus.</p>
+        <p class="quoteOdd">21. Be so busy loving your life that you have no time for hate, regret, or fear.</p>
+        <p class="quoteEven">22. The smarter you get, the less you speak.</p>
+        <p class="quoteOdd">23. Only you and you alone can change your situation</p>
+        <p class="quoteEven">24. My teacher said I'll never get a job, he was right. I built my own empire.</p>
+        <p class="quoteOdd">25. Do it because, they said you can't</p>
+        <p class="quoteEven">26. I'll be rich one day, I know it.</p>
+      </div>
+      
+      
+      <div class="quotesPage1" id="quotesPage3">
+        <p class="quoteOdd">27. Never reveal everything you know.</p>
+        <p class="quoteEven">28. Setting a goal is not enough, hunt them.</p>
+        <p class="quoteOdd">29. Never take your eyes off the target.</p>
+        <p class="quoteEven">30. How other see you isn't important, how you see yourself means everything.</p>
+        <p class="quoteOdd">31. Level up so hard that they will have to re-meet and re-know you.</p>
+        <p class="quoteEven">32. Never assume that loud is strong and quiet is weak.</p>
+        <p class="quoteOdd">33. I know I'm on the right path because things stopped being easy.</p>
+        <p class="quoteEven">34. Rock bottom will teach you lessions that mountain tops never will.</p>
+      </div>
+      
+      
+      
     </div>
     
-    <h4 class="note-fishing">This setup is just idea and not used in IRL. That I know of.<br><br><br><br>Sorry Buttons are messed up right now!</h4>
-  </div>
-  
-  
-  
- 
- 
-  
-  
-  
-  
-  
-  
-  
-  <div class="side-menu" id="side-menu">
-    <p onclick="Hide_SideMenu()" class="side-menu-close-btn NoSeleteable">X</p>
-    <div class="side-menu-vertical-split"></div>
-    
-    
-    <h3 class="SideMenu-title">Menu</h3>
-    <h4 onclick="WelcomeButton_Pressed()" class="SideMenu-Welcome-Btn">Welcome Page</h4>
-    <h4 onclick="GameTeachUsButton_Pressed()" class="SideMenu-gameTeach-Btn">What Games Teach Us</h4>
-    <h4 onclick="FishingButton_Pressed()" class="SideMenu-fishing-Btn">Fishing Setup Idea</h4>
-    
-    
-    
-    <h4 onclick="AboutMeButton_Pressed()" class="SideMenu-AboutMe-Btn">About Me</h4>
   </div>
   
   
   
   
-  
-  <div class="pc-error NoSeleteable">
-    <h2 class="pc-error-title NoSeleteable">SORRY!</h2>
-    <p class="pc-error-note NoSeleteable">Please use a screen with less then 500 pixels in width until I fix.</p>
-  </div>
-  
-  <script src="js/index.js"></script>
+  <script src="./scripts/index.js"></script>
+  <script src="./scripts/Quotes.js"></script>
 </body>
-</html> 
+</html>
