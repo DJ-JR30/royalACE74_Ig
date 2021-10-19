@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "Rattoney";
+  src: url("./Rattoney/Rattoney.ttf");
+}
+
+@font-face {
+  font-family: "Rattih_Putri";
+  src: url("./Rattih_Putri/Rattih_Putri.ttf");
+}
+
+@font-face {
+  font-family: "Typegrapher_One";
+  src: url("./TypegrapherOne/TypegrapherOne.ttf");
+}
+
+@font-face {
+  font-family: "Freakouts";
+  src: url("./Freakouts/Freakouts.ttf");
+}
+
+@font-face {
+  font-family: "DevonSweet";
+  src: url("./DevonSweet/DevonSweet.ttf");
+}
+
+
+
+
+
+
+
+.Rattoney {
+  font-family: Rattoney;
+}
+
+.Rattih_Putri {
+  font-family: Rattih_Putri;
+}
+
+.Typegrapher_One {
+  font-family: Typegrapher_One;
+}
+
+.Freakouts {
+  font-family: Freakouts;
+}
+
+.DevonSweet {
+  font-family: DevonSweet;
+}
+
+

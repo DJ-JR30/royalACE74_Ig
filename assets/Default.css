@@ -1,0 +1,31 @@
+@import url('../assets/fonts/font.css');
+
+
+@font-face {
+  font-family: "DevonSweet";
+  src: url("../assets/fonts/DevonSweet/DevonSweet.ttf");
+}
+
+
+
+
+.Link {
+  color: lightskyblue;
+  text-decoration: none;
+  font-family: 'DevonSweet';
+}
+
+
+.popup-warning {
+  color: goldenrod;
+  text-decoration: none;
+  font-family: 'DevonSweet';
+}
+
+.popup-error {
+  color: darkred;
+  text-decoration: none;
+  font-family: 'DevonSweet';
+}
+
+
