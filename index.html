@@ -26,22 +26,23 @@
     
     
     
-    <div class="Home-Div TempHide" id="Home-Div">
-      <img onclick="ShowQuote()" class="Home-QuoteBtn" src="./assets/imgs/quote-1.svg">
+    <div class="Home-Div" id="Home-Div">
+      <img onclick="ShowQuote()" class="Home-QuoteBtn TempHide" src="./assets/imgs/quote-1.svg">
+      <p class="quote-note">Quotes Coming Soon!</p>
     </div>
     
     
     
     
-    <div class="Quote-Div" id="Quote-Div">
-      <p class="backBtn"><</p>
+    <div class="Quote-Div TempHide" id="Quote-Div">
+      <p class="backBtn" onclick="BackPressed()"><</p>
       <p class="PageNum" id="PageNum">Page 1</p>
-      <p class="FroBtn">></p>
+      <p class="FroBtn" onclick="FrowardPressed()">></p>
       
       
       
       
-      <div class="quotesPage1 TempHide" id="quotesPage1">
+      <div class="quotesPage TempHide" id="quotesPage1">
         <p class="quoteOdd">1. Don't underestimate me darling I can go from gentlemen to gangster in just 2 secs.</p>
         <p class="quoteEven">2. Be scared, and do it anyway</p>
         <p class="quoteOdd">3. Being alone is better than being surrounded by the wrong people.</p>
@@ -59,7 +60,7 @@
       
       
       
-      <div class="quotesPage1 TempHide" id="quotesPage2">
+      <div class="quotesPage TempHide" id="quotesPage2">
         <p class="quoteEven">14. Don't waste your time looking back, you aren't going that way.</p>
         <p class="quoteOdd">15. Some People are mad at you because you aren't suffering the way they expected you to.</p>
         <p class="quoteEven">16. There is no competition, because nobody can be me.</p>
@@ -76,7 +77,8 @@
       </div>
       
       
-      <div class="quotesPage1" id="quotesPage3">
+      
+      <div class="quotesPage TempHide" id="quotesPage3">
         <p class="quoteOdd">27. Never reveal everything you know.</p>
         <p class="quoteEven">28. Setting a goal is not enough, hunt them.</p>
         <p class="quoteOdd">29. Never take your eyes off the target.</p>

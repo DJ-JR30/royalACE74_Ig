@@ -89,3 +89,14 @@ body {
 }
 
 
+
+.quote-note {
+  color: white;
+  position: absoute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+
