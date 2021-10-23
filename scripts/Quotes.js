@@ -15,27 +15,33 @@ var quotesPage3 = document.getElementById('quotesPage3');
 
 
 function PageChanger(Dirction) {
-  if(Dirction = 'Back') {
+  if(Dirction == 'Back') {
     if(PageNum.innerHTML == 'Page 1') {
-      Page3()
+      Page3();
+      return;
     }else{
       if(PageNum.innerHTML == 'Page 2') {
         Page1();
+        return;
       }else{
         if (PageNum.innerHTML == 'Page 3') {
           Page2();
+          return;
         }
       }
     }
   }else{
     if(PageNum.innerHTML == 'Page 1') {
       Page2();
+      return;
     }else{
       if(PageNum.innerHTML == 'Page 2') {
         Page3();
+        return;
       }else{
         if (PageNum.innerHTML == 'Page 3') {
           Page1();
+          return;
         }
       }
     }
@@ -48,21 +54,21 @@ function PageChanger(Dirction) {
 
 function Page1() {
   HideAllPages();
-  PageNum.innerHTML.innerHTML = 'Page 1';
+  PageNum.innerHTML = 'Page 1';
   quotesPage1.style.display = 'block';
   quotesPage1.style.visibility = 'visible';
 }
 
 function Page2() {
   HideAllPages();
-  PageNum.innerHTML.innerHTML = 'Page 2';
+  PageNum.innerHTML = 'Page 2';
   quotesPage2.style.display = 'block';
   quotesPage2.style.visibility = 'visible';
 }
 
 function Page3() {
   HideAllPages();
-  PageNum.innerHTML.innerHTML = 'Page 3';
+  PageNum.innerHTML = 'Page 3';
   quotesPage3.style.display = 'block';
   quotesPage3.style.visibility = 'visible';
 }
