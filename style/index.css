@@ -82,6 +82,16 @@ body {
 
 
 
+.quote-fav {
+  color: white;
+  position: absolute;
+  top: 500px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+
 
 .TempHide {
   display: none;

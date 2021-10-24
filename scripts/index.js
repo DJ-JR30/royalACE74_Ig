@@ -15,6 +15,8 @@ var Quot4 = document.getElementById('quotesPage4');
 var Quot5 = document.getElementById('quotesPage5');
 var Quot6 = document.getElementById('quotesPage6');
 var Quot7 = document.getElementById('quotesPage7');
+var Quot8 = document.getElementById('quotesPage8');
+var Quot9 = document.getElementById('quotesPage9');
 
 
 
@@ -76,6 +78,12 @@ function HideALL() {
   
   Quot7.style.display = 'none';
   Quot7.style.visibility = 'hidden';
+  
+  Quot8.style.display = 'none';
+  Quot8.style.visibility = 'hidden';
+  
+  Quot9.style.display = 'none';
+  Quot9.style.visibility = 'hidden';
 }
 
 

@@ -11,6 +11,8 @@ var quotesPage4 = document.getElementById('quotesPage4');
 var quotesPage5 = document.getElementById('quotesPage5');
 var quotesPage6 = document.getElementById('quotesPage6');
 var quotesPage7 = document.getElementById('quotesPage7');
+var quotesPage8 = document.getElementById('quotesPage8');
+var quotesPage9 = document.getElementById('quotesPage9');
 
 
 
@@ -21,7 +23,7 @@ var quotesPage7 = document.getElementById('quotesPage7');
 function PageChanger(Dirction) {
   if(Dirction == 'Back') {
     if(PageNum.innerHTML == 'Page 1') {
-      Page7();
+      Page9();
       return;
     }else{
     if(PageNum.innerHTML == 'Page 2') {
@@ -47,8 +49,16 @@ function PageChanger(Dirction) {
     if(PageNum.innerHTML == 'Page 7') {
       Page6();
       return;
+    }else{
+    if(PageNum.innerHTML == 'Page 8') {
+      Page7();
+      return;
+    }else{
+    if(PageNum.innerHTML == 'Page 9'){
+      Page8();
+      return;
     }
-    }}}}}}
+    }}}}}}}}
   }else{
     if(PageNum.innerHTML == 'Page 1') {
         Page2();
@@ -75,10 +85,18 @@ function PageChanger(Dirction) {
         return;
     }else{
     if(PageNum.innerHTML == 'Page 7') {
+      Page8();
+      return;
+    }else{
+    if (PageNum.innerHTML == 'Page 8') {
+      Page9();
+      return;
+    }else{
+    if(PageNum.innerHTML == 'Page 9') {
       Page1();
       return;
     }
-    }}}}}}
+    }}}}}}}}
   }
 }
 
@@ -131,8 +149,22 @@ function Page6() {
 function Page7() {
   HideAllPages();
   PageNum.innerHTML = 'Page 7';
-  quotesPage6.style.display = 'block';
-  quotesPage6.style.visibility = 'visible';
+  quotesPage7.style.display = 'block';
+  quotesPage7.style.visibility = 'visible';
+}
+
+function Page8() {
+  HideAllPages();
+  PageNum.innerHTML = 'Page 8';
+  quotesPage8.style.display = 'block';
+  quotesPage8.style.visibility = 'visible';
+}
+
+function Page9() {
+  HideAllPages();
+  PageNum.innerHTML = 'Page 9';
+  quotesPage9.style.display = 'block';
+  quotesPage9.style.visibility = 'visible';
 }
 
 
@@ -162,6 +194,12 @@ function HideAllPages() {
   
   quotesPage7.style.display = 'none';
   quotesPage7.style.visibility = 'hidden';
+  
+  quotesPage8.style.display = 'none';
+  quotesPage8.style.visibility = 'hidden';
+  
+  quotesPage9.style.display = 'none';
+  quotesPage9.style.visibility = 'hidden';
 }
 
 
